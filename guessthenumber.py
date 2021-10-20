@@ -20,7 +20,7 @@ while(userguess !=botguess):
 '''                                       Creating Endless Loop                                                               '''
 
 while True:
-    user = input("wanna play agin then type yes else type no : \n")
+    user = input("wanna play again then type yes else type no : \n")
     if user == "yes":
         botguess = random.randint(1, 1000)
         userguess = None
