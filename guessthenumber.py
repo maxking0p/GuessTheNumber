@@ -1,4 +1,6 @@
 import random
+import time
+
 time.sleep(1)
 print("wait..! the game is about to start.")
 time.sleep(1.2)
