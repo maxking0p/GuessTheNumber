@@ -1,4 +1,13 @@
 import random
+time.sleep(1)
+print("wait..! the game is about to start.")
+time.sleep(1.2)
+print(".")
+time.sleep(1.2)
+print("..")
+time.sleep(1.2)
+print("...")
+time.sleep(1.2)
 print("welcome to the guesses game! choose a number between 1 to 1000 until you guessed the right number")
 
 botguess = random.randint(1, 1000)
@@ -44,4 +53,5 @@ while True:
 
 # else:
 #      print("thanks")
+
 
